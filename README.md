@@ -44,7 +44,7 @@ Various architectures were tested, and the final model is based on a pre-trained
 
 ## 📈 Training
 The model was trained using TensorFlow and Keras with cross-validation to ensure robustness. The final model achieves a validation loss of 0.6790 and a validation accuracy of 81.29%.
-![Accuration](https://drive.google.com/file/d/1R7M7vsqs9N7KITTfxwuiWIZC2LVE6Cgx/view?usp=sharing)
+![Accuration](https://github.com/EyeTify/Machine-Learning/blob/main/ACCURACY.png)
 ## 🔍 Fine-Tuning
 Fine-tuning involves unfreezing the top layers of the pre-trained model and re-training them with a very low learning rate. This allows the model to better adapt to the specific features of the new dataset.
 
